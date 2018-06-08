@@ -16,7 +16,8 @@ $ ws [command] <options>
 
 $ ws today : returns current weather at your location
 
-$ ws today -l "city name, country code" || ws today --location "city name, country code" : returns current weather at mentioned location
+$ ws today -l "city name, country code" || ws today --location "city name, country code" : returns current 
+weather at mentioned location
 
 $ ws -v || ws --version : returns package version
 
