@@ -1,0 +1,35 @@
+{
+  "name": "weatherschmeather",
+  "version": "1.1.0",
+  "description": "CLI Weather App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "ws": "bin/ws"
+  },
+  "keywords": [
+    "weatherschmeather",
+    "weather",
+    "CLI Weather App",
+    "today"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notACoder69/WeatherSchmeatherCLI.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "homepage": "https://github.com/notACoder69/WeatherSchmeatherCLI#readme",
+  "author": "Aritro Paul",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
+  }
+}
