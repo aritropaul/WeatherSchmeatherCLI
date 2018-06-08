@@ -1,6 +1,6 @@
 {
   "name": "weatherschmeather",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "CLI Weather App",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "CLI Weather App",
     "today"
   ],
+  "readme": "https://github.com/notACoder69/WeatherSchmeatherCLI/blob/master/README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/notACoder69/WeatherSchmeatherCLI.git"

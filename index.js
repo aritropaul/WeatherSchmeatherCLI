@@ -1,4 +1,6 @@
 const minimist = require('minimist')
+const dotenv = require('dotenv')
+const result = dotenv.config()
 const error = require('./utils/error')
 
 
