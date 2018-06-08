@@ -5,12 +5,12 @@ A CLI Weather App.
 [![Downloads/week](https://img.shields.io/npm/dw/weatherschmeather.svg)](https://www.npmjs.com/package/weatherschmeather)
 [![License](https://img.shields.io/npm/l/weatherschmeather.svg)](https://github.com/notACoder69/WeatherSchmeatherCLI/blob/master/package.json)
 
-# INSTALLATION
+### INSTALLATION
 ```sh-session
 $ npm install --global weatherschmeather
 ```
 
-# USAGE
+### USAGE
 ```sh-session
 $ ws [command] <options>
 
@@ -20,5 +20,5 @@ $ ws today -l "city name, country code" || ws today --location "city name, count
 
 $ ws -v || ws --version : returns package version
 
-$ ws -h || ws --help : help
+$ ws -h || ws --help : returns help
 ```
