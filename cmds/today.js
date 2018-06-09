@@ -1,7 +1,7 @@
 const ora = require('ora')
 const dotenv = require('dotenv')
 const result = dotenv.config({
-    path:"/Users/aritropaul/Documents/Codes/Node/WeatherSchmeather/.env"
+    path: __dirname + '/../.env'
 })
 const getWeather = require('../utils/weatherloc')
 const getLocation = require('../utils/location')
@@ -19,5 +19,6 @@ module.exports = async (args) => {
             console.log(`\t${weather.data.weather[0].description}`)
     }catch(err){
         spinner.stop()
+        console.log(err)
     }
   }
