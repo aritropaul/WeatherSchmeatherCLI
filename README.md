@@ -23,3 +23,7 @@ $ ws -v || ws --version : returns package version
 
 $ ws -h || ws --help : returns help
 ```
+
+![today](https://github.com/notACoder69/WeatherSchmeatherCLI/blob/master/2018-06-09%2010.35.26.gif)
+
+![today location](https://github.com/notACoder69/WeatherSchmeatherCLI/blob/master/2018-06-09%2010.34.30.gif)
